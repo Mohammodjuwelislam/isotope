@@ -1,0 +1,25 @@
+/* isotope-section-start */
+.isotope-manu button {
+	border: none;
+	background: transparent;
+	padding: 10px 25px;
+	font-size: 15px;
+	color: tomato;
+	background: #43434d;
+}
+
+.isotope-manu button.active{
+    background-color: aquamarine;
+}
+
+.isotope-single-item{
+    margin-top: 15px;
+}
+.col-xl-8 .isotope-single-item:last-child(){
+    margin-left: 0px;
+}
+.isotope-single-item img {
+	width: 100%;
+}
+
+/* isotope-section-end */
