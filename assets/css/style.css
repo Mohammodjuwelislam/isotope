@@ -47,11 +47,28 @@
 .isotope-single-item{
     margin-top: 15px;
 }
-.col-xl-8 .isotope-single-item:last-child(){
-    margin-left: 0px;
-}
+
 .isotope-single-item img {
 	width: 100%;
+}
+
+.isotope-single-item{
+    position: relative;
+}
+
+.isotope-single-item::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transition: .3s;
+    opacity: 0;
+}
+.isotope-single-item:hover::before{
+    opacity: .4;
 }
 
 /* isotope-section-end */
